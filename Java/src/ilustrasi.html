@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Persegi Panjang dengan Garis Tengah</title>
+  <style>
+    div {
+      width: 200px;
+      height: 100px;
+      background-color: blue;
+      position: relative;
+    }
+    
+    div:after {
+      content: "";
+      position: absolute;
+      border-left: 2px solid white;
+      height: 100%;
+      left: 50%;
+      transform: translateX(-50%); 
+    }
+  </style>
+</head>
+<body>
+
+  <div></div>
+
+</body>
+</html>
